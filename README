@@ -1,0 +1,33 @@
+Dieses Programm löst Fragestellung der 5. Aufgabe der 1. Runde des Bundeswettbewerbes Informatik
+
+Aufgabentext von https://bwinf.de/fileadmin/bundeswettbewerb/40/Bundeswettbewerb-Aufgabenblatt.pdf:
+
+Marktwaage
+
+Auf dem Dachboden durchstöbert Marie eine Kiste mit alten Gegenständen ihrer Urgroßmutter. Dabei findet sie eine hübsche Marktwaage mit dazugehörigen Gewichtsstücken:
+5kg, 1kg, 1kg, 500g, 500g, 500g, 100g, 100g, 100g, 50g, 50g, 10g, 10g und nochmals 10g.
+
+Marie sagt erstaunt zu ihrer Mutter: "Damit kann man doch nur wenige verschiedene Gewichte zusammenstellen. Es ist ja gar nicht möglich, z.B. 440 Gramm Kartoffeln abzuwiegen."
+
+Ihre Mutter erwidert: "Doch, hierzu stellt man ein 500-Gramm-Stück auf eine Seite der Waage und die Kartoffeln mit einem 10-Gramm- und einem 50-Gramm-Stück auf die andere Seite."
+
+Damit hatte Marie nicht gerechnet. Jetzt fragt sie sich, wie groß die Menge der möglichen Gewichte von Waren ist, die man mit dieser Waage wiegen kann. Die Menge enthält offenbar 440g; aber sollte sie womöglich alle Vielfachen von 10g zwischen 10g und 10kg enthalten?
+
+Nachdem sie eine Weile über diese Frage nachgedacht hat, grübelt sie auch darüber nach, wie sich die Situation wohl darstellt, wenn zu solch einer Waage ein anderer und vielleicht "krummer" Satz von Gewichtsstücken vorhanden ist, etwa mit fünf Stücken zu je 2 kg, sechs zu je 371 g, drei zu je 127 g und schließlich drei Stücken zu je 42 g.
+
+Aufgabe 5
+
+Schreibe ein Programm, das solche Fragestellungen beantwortet. Dein Programm soll eine Liste von Gewichten der Gewichtsstücke einlesen und in 10g-Schritten alle Gewichte zwischen 10g und 10kg untersuchen. Für jedes untersuchte Gewicht soll das Programm ausgeben, ob sich das Gewicht mit den vorhandenen Gewichtsstücken erzielen lässt. Falls ja, soll außerdem ausgegeben werden, welche Gewichtsstücke dabei auf welche Seite der Waage gestellt werden müssen, wenn die zu wiegende Ware immer auf die linke Seite gelegt wird. Falls nein, soll ausgegeben werden, wie nahe an das Zielgewicht man mit den vorhandenen Gewichtsstücken kommen kann.
+
+Wende dein Programm mindestens auf alle Beispiele an, die du auf den BWINF-Webseiten findest, und dokumentiere die Ergebnisse.
+
+
+
+Dateiformat (https://bwinf.de/bundeswettbewerb/40/1/):
+Jede Datei beschreibt einen Satz von Gewichtsstücken und enthält
+ - in der ersten Zeile die Anzahl der vorkommenden verschiedenen Gewichte und
+ - in den weiteren Zeilen jeweils zwei Zahlen:
+   - Das Gewicht der jeweiligen Gewichtsstücke in Gramm und
+   - die Anzahl der Gewichtsstücke mit diesem Gewicht.
+
+Die Dateien gewichte0.txt und gewichte1.txt enthalten die Beispiele vom Aufgabenblatt.
